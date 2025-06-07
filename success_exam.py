@@ -3,11 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-"""
-    Cette devoir est une classification binaire (0/1 ou Reussir/echoue) 
-    pour classifier les etudiants d'apres leurs horaires d'etudes et 
-    moyenne scolaire s'il va reussir un cours ou pas 
-"""
+
 data = {
     'heure_etude': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     'moyenne_scolaire': [10, 13, 15, 9, 5, 13, 14, 16, 18, 20],
